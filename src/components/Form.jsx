@@ -11,7 +11,7 @@ const Form = ({createMovie, updateMovieById, objectUpdate, handleSubmit, reset, 
   }
 
   const submit = data => {
-    if(objectUpdate.id !== undefined){
+    if(objectUpdate !== undefined){
       updateMovieById(objectUpdate.id, data)
       reset(defaultValuesForm)
     } else {
