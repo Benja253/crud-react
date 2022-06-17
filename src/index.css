@@ -1,0 +1,22 @@
+body, h2, ul {
+  margin: 0;
+}
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+.App{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+.card {
+  padding: 20px;
+  background-color: #FF3CAC;
+  background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+  color: white;
+  width: 250px;
+  border-radius: 12px;
+}
